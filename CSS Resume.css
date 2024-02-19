@@ -1,0 +1,46 @@
+#resume {
+    margin: flex;
+    display: flex;
+    flex-direction: row;
+    font-family: Georgia;
+}
+
+#left {
+    height: flex;
+    width: 33vw;
+    background-color: darkseagreen;
+    text-align: center;
+}
+
+#right {
+    width: 67vw;
+}
+
+#profile {
+    margin-top: 50px;
+}
+
+.line-break {
+    width: 90%;
+    height: 2px;
+    border-width: 0;
+    color: black;
+    background-color: black;
+}
+
+.title {
+    color: darkslategrey
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+.two-column {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 5%;
+}
